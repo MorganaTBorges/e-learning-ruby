@@ -1,0 +1,23 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Courses</h1>
+
+<table id="courses">
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+    </tr>
+  <% @courses.each do |course| %>
+    <tr>
+      <td><%= course.title%></td>
+      <td><%=course.description %></td>
+      <td><%= link_to "Show", course %></td>
+      <td><%= link_to "Edit", course %></td>
+      <td><%= link_to "Destroy", course %></td>
+    </tr>
+  <% end %>
+ </table>
+
+<%= link_to "New course", new_course_path %>
