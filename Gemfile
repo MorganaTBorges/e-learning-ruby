@@ -24,6 +24,9 @@ gem 'bootstrap', '~> 5.1.3'
 # Fontawesome
 gem "font-awesome-sass", "~> 6.4.0"
 
+# SimpleForm
+gem 'simple_form'
+
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
