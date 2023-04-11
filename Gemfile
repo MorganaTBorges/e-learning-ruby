@@ -27,6 +27,9 @@ gem "font-awesome-sass", "~> 6.4.0"
 # SimpleForm
 gem 'simple_form'
 
+# Devise
+gem 'devise'
+
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
