@@ -21,6 +21,9 @@ gem "importmap-rails"
 # Bootstrap
 gem 'bootstrap', '~> 5.1.3'
 
+# Faker
+gem 'faker'
+
 # Fontawesome
 gem "font-awesome-sass", "~> 6.4.0"
 
