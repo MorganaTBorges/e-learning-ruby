@@ -19,9 +19,9 @@
           <% end %>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0" action="<%= root_path %>" accept-charset="UTF-8" method="get">
+      <form class="form-inline my-2 my-lg-0" action="<%= courses_path %>" accept-charset="UTF-8" method="get">
         <div class="input-group">
-          <%= text_field_tag :name, params[:name], autocomplete: 'off', placeholder: "Search", class: 'form-control-sm' %>
+          <%= text_field_tag :title, params[:title], autocomplete: 'off', placeholder: "Search", class: 'form-control-sm' %>
           <span class="input-group-append">
             <button class="btn btn-primary btn-sm" type="submit">
               <span class="fa fa-search" aria-hidden="true"></span>
